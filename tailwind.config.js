@@ -20,19 +20,6 @@ export default {
         poppinsBold: 'poppinsBold',
         poppinsExtraBold: 'poppinsExtraBold',
       },
-      keyframes: {
-        scrollRightToLeft: {
-          '0%': {
-            transform: 'translateX(100%)',
-          },
-          '100%': {
-            transform: 'translateX(-100%)',
-          },
-        },
-      },
-      animation: {
-        'scroll-right-to-left': 'scrollRightToLeft 30s linear infinite',
-      },
     },
     screens: {
       'sm': '640px', 
